@@ -1,0 +1,310 @@
+/*CYPHER OBJECTS - CSS*/
+#cypherLoginForm a { color: #482819; text-decoration: underline; }
+#cypherLoginForm a:hover { text-decoration: underline; }
+
+form p { padding-left: 10px; color: #482819; }
+form .label-fields {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #482819;
+}
+
+form .content-alignment,
+form .template-orientation { padding: 0px; list-style-position: outside; }
+
+form .content-alignment li,
+form .template-orientation li { list-style-type: none; }
+
+form .content-alignment span,
+form .template-orientation span {	
+    padding: 0px;
+    vertical-align: top;
+    border: solid 0px red;
+}
+
+form .template-orientation li { padding: 0px 0px 10px 0px; }
+form .template-orientation li input { vertical-align: top; }
+
+form .template-orientation li img { cursor: default; margin: 0px 4px 0px 0px; }
+form .template-orientation .icon-vertical { width: auto; height: 31px; }
+form .template-orientation .icon-horizontal { width: 31px; height: auto; }
+
+form .date-label-fields {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #482819;
+    width: 80px;
+}
+
+#cypherAccountForm select { border: solid 1px gray; padding: 2px 2px 2px 2px; }
+
+#cypherRegistrationForm img { margin-top: 4px; margin-bottom: 4px; }
+
+#cypherBookingForm, 
+#cypherEnquiryForm { padding: 8px 12px 12px 12px; border: solid 0px #999; }
+
+#cypherBookingForm h3, 
+#cypherEnquiryForm h3 { margin-top: 0px; }
+
+#cypherBookingForm .col-label, 
+#cypherEnquiryForm .col-label {
+    width: 120px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    vertical-align: top;		
+}
+
+#cypherBookingForm .form-field, 
+#cypherEnquiryForm .form-field {    
+    width: 250px;
+    border: solid 1px #000;
+    font-size: 11px;
+    padding: 2px;
+}
+
+#cypherEnquiryForm table { margin-left: 14px; }
+#cypherBookingForm table td,
+#cypherEnquiryForm table td { vertical-align: top; padding-bottom: 4px; }
+
+#cypherEnquiryForm .crudForm { margin: 10px auto 10px 55px; }
+#cypherEnquiryForm .crudForm div {
+    display: table-cell;
+    width: 110px;
+    padding: 0px 8px 0px 8px;
+    vertical-align: middle;
+}
+
+#cypherBookingForm .bookingButton,
+#cypherEnquiryForm .enquiryButton, 
+#cypherEnquiryForm .closeButton, 
+#cypherBookingForm .closeButton, 
+#cypherEnquiryForm .cancelButton,
+#cypherBookingForm .cancelButton {
+    width: 106px;
+    height: 37px;
+    cursor: pointer;
+    cursor: default;
+    border: none;
+    background-color: transparent;
+}
+
+#cypherBookingForm .bookingButton { background-image: url('../images/book-button.png');	}
+#cypherEnquiryForm .enquiryButton { background-image: url('../images/enquiry-button.png'); }
+#cypherEnquiryForm .closeButton,
+#cypherBookingForm .closeButton { background-image: url('../images/close-button.png'); }
+#cypherEnquiryForm .cancelButton,
+#cypherBookingForm .cancelButton { background-image: url('../images/cancel-button.png'); }
+
+.cypher-LoginField, .cypher-RegisterField {
+    width: 220px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px 2px 2px 2px;
+    border: solid 1px Gray;
+}
+
+.cypher-FormField {
+    width: 255px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px;
+    border: solid 1px #945f34;
+}
+
+.cypher-FormThrowField {
+    width: 255px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 2px;
+    border: solid 1px Gray;
+}
+
+.cypher-Textarea {
+    width: 650px;
+    height: 300px;
+    font-family: Arial;
+} 
+
+.cypherLogs { margin-right: 0px; border-left: solid 1px #222; }
+
+.cypherUnsubscribeForm #unsubscribeButton {
+    display: block;
+    width: 100px;
+    height: 37px;    
+    cursor: pointer;
+    padding: 0px;
+    margin-left: 80px;
+    background-image: url('../images/unsubscribe-button.png');
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;            
+}
+
+.cypherUnsubscribeForm div.table div.table-row div {
+    display: table-cell;
+    width: 270px;
+    vertical-align: top;
+    padding-bottom: 6px;
+    margin-left: 60px;
+    text-align: center;    
+}
+
+.cypherUnsubscribeForm div.table div.table-row { display: table-row; }
+.cypherUnsubscribeForm div.table div.table-row div { padding-left: 120px; }
+
+.cypherUnsubscribeForm div.table,
+.cypherVIPForm div.table { display: table; }
+
+.cypherVIPForm div.table div.table-row,
+.cypherVIPForm div.table div.table-row-hidden { display: table-row; }
+
+.cypherVIPForm div.table div.table-row div,
+.cypherVIPForm div.table div.table-row-hidden div {
+    display: table-cell;
+    width: 270px;
+    vertical-align: top;
+    padding-bottom: 6px;    
+}
+
+.cypherUnsubscribeForm div.table div.table-row div label,
+.cypherVIPForm div.table div.table-row div label, 
+.cypherVIPForm div.table div.table-row-hidden div label{ font-size: 14px; }
+
+.cypherVIPForm div.table div.table-row div.row-label,
+.cypherVIPForm div.table div.table-row-hidden div.row-label { border-top: dashed 1px #37302e; padding-left: 12px; }
+
+.cypherVIPForm div.table div.table-row div.row-field,
+.cypherVIPForm div.table div.table-row-hidden div.row-field,
+.cypherVIPForm div.table div.table-row div.row-address { padding-left: 12px; }
+
+.cypherUnsubscribeForm div.table div.row-field input[type='text'],
+.cypherVIPForm div.table div.row-field textarea,
+.cypherVIPForm div.table div.row-field input,
+.cypherVIPForm div.table div.table-row div.row-address input,
+.cypherVIPForm div.table div.row-field select {
+    padding: 4px;
+    color: #fff;
+    background-color: #362f2d;
+    border: solid 1px #999;
+    font-style: normal; 
+    /*font-family: Eras Medium, Calibri;*/
+    font-family: Calibri;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.cypherVIPForm div.table div.row-field select { width: 260px; }
+
+.cypherVIPForm div.table div.table-row div.row-address input{ display: block; margin-bottom: 6px; }
+
+.cypherVIPForm .cypher-VIPField { width: 250px; }
+
+#cypherAdmin-container {
+    width: auto;
+    border: solid 1px Gray;
+    padding: 20px 0px 20px 8px;	
+    border: solid 1px #a77c68;
+    -webkit-border-radius:10px; 
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#cypherAdmin-container span { padding-left: 2px; }
+#cypherAdmin-container span a { color: #000; text-decoration: underline; }
+#cypherAdmin-container span a:hover { color: #ff5f09; }
+#cypherAdmin-container .log_buttons { margin-top: 12px; }
+
+#cypher-dataTable { color: #000; }
+#cypher-dataTable th { vertical-align: middle; }
+
+#cypher-dataTable a { color: #006699; cursor: pointer; cursor: default; }
+#cypher-dataTable a:hover { color: red; text-decoration: none; }
+
+#cypher-dataTable .imgThumbCol {
+    width: 10px;
+    text-align: center;
+    padding: 8px 2px 2px 8px;
+}
+#cypher-dataTable .imgThumbCol span { color: #999; font-style: italic; }
+
+#cypher-dataTable_length, 
+#cypher-dataTable_info, 
+#cypher-dataTable_filter { color: #fff; }
+
+.cypher-sideimg { margin-top: 10px; margin-bottom: 10px; }
+.cypher-sidelinks {
+    width: 230px;
+    position: relative;
+    top: -5px;
+}
+.cypher-sidelinks a { padding-right: 240px; padding-bottom: 44px; }
+
+.v-menu {
+    margin-top: 10px;
+    width: 140px;
+    padding: 0px 8px 15px 8px;
+    background-color: #332c2a;
+    border: solid 2px #92857f;		
+    -webkit-border-radius:10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+}
+#cypher-vmenu {}
+#cypher-vmenu a {	
+    display: block table-cell;
+    padding: 2px 0px 4px 0px;
+    color: #fff;	
+    font-family: Calibri;		
+    text-decoration: none;	
+}
+#cypher-vmenu h3 {	
+    padding: 2px 0px 0px 25px;
+    color: #000;
+    text-shadow: none;
+    text-align: left;
+    font-family: Calibri;
+}
+#cypher-vmenu div {	
+    /*border: solid 2px #a77c68;*/
+    background-color: #784a34;
+    color: #784a34;
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    border-radius: 6px;
+}
+#cypher-vmenu .v-menu-links a {
+    /*width: 100%;*/
+    display: inline-block;
+    color: #784a34;	
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+#cypher-vmenu .v-menu-links a:hover { color: red; }
+
+#cypher-store-table { width: 100%; }
+.cypher-store-left,
+.cypher-store-right { vertical-align: top; }
+.cypher-store-left { width: 150px; }
+.cypher-store-right { width: auto; }
+
+.cypher-product-img {
+    width: 150px; 
+    height: auto;
+    border: solid 1px #ccc; 
+    padding: 2px; 
+}
+
+/*wysiwyg*/
+.nicEdit-main,
+.nicEdit-selectTxt { color: #000; font-family: Arial; }

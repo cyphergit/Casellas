@@ -1,0 +1,262 @@
+﻿body
+{
+	font-size: 11px;
+	color: #fff;
+	background-image: url('../images/body_bg.png');	
+	background-color: #1c1c1c;
+}
+
+.DialogForm
+{
+	font-size: 11px; 
+	font-family: Verdana; 
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 20px 0px; 
+	min-height: 280px;
+}
+
+.DialogForm li 
+{
+	color: #000;
+}
+
+.DialogForm h4 
+{
+	font-family: Verdana; 
+	font-size: 12px; 
+	background-color: #f98e02;
+	padding-left: 8px; 
+	padding-right: 8px; 
+	padding-top: 8px; 
+	padding-bottom: 8px; 
+	border: solid 1px #222;
+	color: #222;
+}
+
+.DialogFormContent 
+{
+	padding-left: 8px; 
+	padding-right: 8px; 
+	padding-bottom: 8px;
+}
+
+.itemfield 
+{
+	color: #f98e02;
+	font-weight: bold;
+}
+
+.DialogFormClose
+{
+	text-align: right; 
+	padding-top: 8px; 
+	border-top: solid 1px #ccc; 
+	color: #999;
+}
+
+.DialogFormClose a
+{
+	color: Gray; 
+	font-size: 11px; 
+	font-family: Verdana; 
+	text-decoration: none;
+}
+
+.DialogFormClose a:hover 
+{
+	/*color: #f58f09;*/ 
+	color: #ff5f09;
+	cursor: default;
+	/*text-decoration: underline;*/
+}
+
+.DialogForm table
+{
+	font-size: 11px; 
+	margin-bottom: 4px;
+}
+
+.DialogForm textarea 
+{
+	width: 240px; 
+	height: 80px;
+}
+
+.DialogEntry 
+{
+	border: solid 1px #ccc; 
+	width: 250px;
+	padding-left: 4px;
+}
+
+.DialogEntry2
+{
+	border: solid 1px #ccc; 
+	width: 40px;
+	padding-left: 4px;
+}
+
+.DialogSubEntry
+{
+	border: solid 1px #ccc; 
+	width: 335px;	
+	padding-left: 4px;
+}
+
+.DialogSubEntry2
+{
+	border: solid 1px #ccc; 
+	width: 358px;
+	padding-left: 4px;
+}
+
+.DialogSubEntry3
+{
+	border: solid 1px #ccc; 
+	width: 385px;
+	padding-left: 4px;
+}
+
+.DialogButton 
+{
+	background-color: transparent; 
+	border: solid 0px #ccc; 
+	font-size: 11px; 
+	font-family: Verdana; 
+	color: Gray; 
+	padding: 0px 0px 0px 0px; 
+	cursor: pointer; 
+	cursor: default;
+}
+
+.DialogButton:hover 
+{
+	/*color: #f58f09; */
+	cursor: pointer;
+}
+
+.testimonialSatisfiedBtn
+{
+    border: solid 0px #ccc; 
+    background-color: #fff;
+    background-image: url('../images/satisfied.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 20px;
+    padding-left: 22px;
+    color: Gray;
+    font-size: 11px;
+    margin-left: 2px;  
+}
+
+.testimonialUnsatisfiedBtn
+{
+    border: solid 0px #ccc; 
+    background-color: #fff;
+    background-image: url('../images/unsatified.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 20px;
+    padding-left: 22px;
+    color: Gray;
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+#itemsCRUD
+{
+	padding-left: 4px;
+	padding-bottom: 4px;
+	color: #fff;
+	font-style: italic;
+}
+
+#itemsCRUD a
+{
+	color: #fff;
+}
+
+#itemsCRUD a:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+	cursor: default;
+}
+
+#itemsCRUD .link a:hover 
+{
+	text-decoration: underline;
+	cursor: pointer;
+	cursor: default;
+}
+
+#itemsCRUD span
+{
+	color: #999;	
+}
+
+#itemsTable
+{
+	margin-bottom: 20px;
+}
+
+#contentItems li 
+{
+	color: #fff;
+}
+
+.noDataFetch
+{
+	color: #fff;
+	font-style: italic;
+}
+
+.DialogSelect
+{
+	width: 335px; 
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;		
+}
+
+.DialogSelectContent
+{
+	width: 150px;
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;	
+	resize: none;	
+}
+
+.DialogSelectItem
+{
+	width: 285px;
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;	
+	resize: none;	
+}
+
+.DialogMiniFields
+{
+	width: 50px; 
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;			
+}
+
+.field-margin
+{
+	margin-bottom: 12px;
+}
+
+#updateAccountForm input, #updateAccountForm select, 
+#updateNewsletterForm input, #updateCustomerForm input
+{
+	border: solid 1px #222;
+	width: 350px;
+	font-family: Arial;
+	padding-left: 4px;
+}
+
+#updateCustomerForm .chkNewsletter 
+{
+	width: auto;
+	border: none;
+}

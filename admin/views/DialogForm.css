@@ -1,0 +1,320 @@
+﻿body
+{
+	font-family: Century Gothic;
+	font-size: 11px;
+	color: #000;
+	/*background-image: url('../../images/bg_main.jpg');	
+	background-color: #999;*/
+}
+
+.DialogForm
+{
+	font-size: 11px; 
+	/*font-family: Verdana; */
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 20px 0px; 
+	min-height: 260px;
+}
+
+.DialogForm li 
+{
+	color: #000;
+}
+
+.DialogForm h4 
+{
+	font-family: Century Gothic; 
+	font-size: 12px;
+	background-image: url('../../images/ui-bg_gloss-wave_35_f6a828_500x100.png'); 
+	background-repeat: repeat-x;
+	background-color: #383838;
+	padding-left: 8px; 
+	padding-right: 8px; 
+	padding-top: 8px; 
+	padding-bottom: 8px; 
+	border: solid 1px #fff;
+	color: #fff;
+}
+
+.DialogFormContent 
+{
+	padding: 12px 8px 8px 8px;
+	background: url(../../images/bg_container.png) repeat;
+	
+	-webkit-border-radius:10px; 
+	-moz-border-radius: 10px; 
+	-webkit-box-shadow: 0 -1px 12px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 -1px 12px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 -1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.DialogFormContent .v-field 
+{
+	padding-bottom: 8px;
+	padding-right: 8px;
+	color: #222;
+}
+
+.DialogFormContent #img-product 
+{
+	width: 180px;
+	height: 180px;
+	padding: 2px 2px 2px 5px;
+	margin-right: 4px;
+	text-align: center;
+	background-color: #fff;
+	
+	border: solid 2px #063b67;
+	-moz-border-radius: .8em; 
+	border-radius: .8em;
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+.DialogFormContent #img-product img
+{
+	max-width: 180px;
+	max-height: 180px; 
+	height: auto; 
+	border: solid 0px #ccc; 
+	padding: 2px 2px 2px 2px;
+	margin-right: 4px;	
+}
+
+.DialogFormContent .img-promo 
+{
+	max-width: 250px; 
+	height: auto; 
+	border: solid 0px #ccc; 
+	padding: 2px 2px 2px 2px;
+	margin-right: 4px;	
+}
+
+.itemfield 
+{
+	color: #000;
+	font-weight: bold;
+}
+
+.DialogFormClose
+{
+	text-align: right; 
+	margin-top: 12px;
+	padding-top: 4px;
+	border-top: dotted 1px #000; 
+	color: #222;
+}
+
+.DialogFormClose a
+{
+	color: #000; 
+	font-size: 11px; 
+	font-weight: bold;
+	font-family: Century Gothic; 
+	text-decoration: none;
+}
+
+.DialogFormClose a:hover 
+{
+	/*color: #f58f09;*/ 
+	/*color: red;*/
+	cursor: default;
+	text-decoration: underline;
+}
+
+.DialogForm table
+{
+	font-size: 11px; 
+	margin-bottom: 4px;
+}
+
+.DialogForm textarea 
+{
+	width: 100%; 
+	height: 80px;
+}
+
+.DialogForm .cypher-Textarea
+{
+	width: 380px;
+	height: 300px;
+}
+
+.DialogEntry 
+{
+	border: solid 1px #222; 
+	width: 250px;
+	padding-left: 4px;
+}
+
+.DialogEntry2
+{
+	border: solid 1px #222; 
+	width: 40px;
+	padding-left: 4px;
+}
+
+.DialogSubEntry
+{
+	border: solid 1px #222; 
+	width: 335px;	
+	padding-left: 4px;
+}
+
+.DialogSubEntry2
+{
+	border: solid 1px #222; 
+	width: 358px;
+	padding-left: 4px;
+}
+
+.DialogSubEntry3
+{
+	border: solid 1px #ccc; 
+	width: 385px;
+	padding-left: 4px;
+}
+
+.DialogButton 
+{
+	background-color: transparent; 
+	border: solid 0px #ccc; 
+	font-size: 11px; 
+	font-family: Verdana; 
+	color: Gray; 
+	padding: 0px 0px 0px 0px; 
+	cursor: pointer; 
+	cursor: default;
+}
+
+.DialogButton:hover 
+{
+	/*color: #f58f09; */
+	cursor: pointer;
+}
+
+.testimonialSatisfiedBtn
+{
+    border: solid 0px #ccc; 
+    background-color: #fff;
+    background-image: url('../images/satisfied.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 20px;
+    padding-left: 22px;
+    color: Gray;
+    font-size: 11px;
+    margin-left: 2px;  
+}
+
+.testimonialUnsatisfiedBtn
+{
+    border: solid 0px #ccc; 
+    background-color: #fff;
+    background-image: url('../images/unsatified.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 20px;
+    padding-left: 22px;
+    color: Gray;
+    font-size: 11px;
+    margin-left: 2px;
+}
+
+#itemsCRUD
+{
+	padding-left: 4px;
+	padding-bottom: 4px;
+	color: #222;
+	font-style: italic;
+}
+
+#itemsCRUD a
+{
+	color: #222;
+}
+
+#itemsCRUD a:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+	cursor: default;
+}
+
+#itemsCRUD .link a:hover 
+{
+	text-decoration: underline;
+	cursor: pointer;
+	cursor: default;
+}
+
+#itemsCRUD span
+{
+	color: #999;	
+}
+
+#itemsTable
+{
+	margin-bottom: 20px;
+}
+
+#contentItems li 
+{
+	color: #fff;
+}
+
+.noDataFetch
+{
+	color: #fff;
+	font-style: italic;
+}
+
+.DialogSelect
+{
+	width: 335px; 
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;		
+}
+
+.DialogSelectContent
+{
+	width: 150px;
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;	
+	resize: none;	
+}
+
+.DialogSelectItem
+{
+	width: 285px;
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;	
+	resize: none;	
+}
+
+.DialogMiniFields
+{
+	width: 50px; 
+	border: solid 1px #ccc; 
+	padding: 2px 0px 2px 4px;			
+}
+
+.field-margin
+{
+	margin-bottom: 12px;
+}
+
+#updateAccountForm input, #updateAccountForm select, 
+#updateNewsletterForm input, #updateCustomerForm input
+{
+	border: solid 1px #222;
+	width: 350px;
+	font-family: Arial;
+	padding-left: 4px;
+}
+
+#updateCustomerForm .chkNewsletter 
+{
+	width: auto;
+	border: none;
+}

@@ -1,0 +1,44 @@
+﻿.basic  {
+    width: auto; 
+    border: solid 0px #ccc; 
+    font-size: 13px;
+}
+.basic div {
+    color: #92857f;
+    padding: 10px;
+    background-color: #332c2a;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.basic li {
+    list-style-type: none; 
+}
+.basic p {
+    border: none; 
+    text-decoration: none; 
+    font-weight: normal; 
+    font-size: 13px; 
+    margin: 0px; 
+    padding: 5px;
+}
+.basic a {
+    cursor:pointer; 
+    display:block; 
+    margin-top: 0; 
+    text-decoration: none; 
+    font-weight: normal; 
+    font-size: 12px; 
+    color: #fff; 
+    background-color: transparent; 
+    border: solid 0px #ccc;
+}
+.basic a:hover {
+    background-color: transparent; 
+    color: #fff; 
+    text-decoration: underline;
+}
+.basic a.selected {
+    color: #fff; 
+    background-color: transparent;
+}

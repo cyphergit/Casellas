@@ -1,0 +1,44 @@
+body 
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#distribution-report
+{    
+    padding: 8px 8px 20px 8px;
+    border: solid 1px #999;
+}
+
+#distribution-report h4
+{    
+    text-align: center;
+}
+
+.report-table 
+{
+    display: table;
+}
+
+.report-table-head
+{
+    display: table-header-group;        
+}
+
+.report-table-row
+{
+    display: table-row;    
+}
+
+.report-table-row div 
+{
+    display: table-cell;
+    width: 350px;
+}
+
+.label-head 
+{
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+}
+
